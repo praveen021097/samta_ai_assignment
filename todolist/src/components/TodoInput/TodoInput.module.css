@@ -1,0 +1,28 @@
+.todoInputContainer{
+    width: 370px;
+    height: 70px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.todoInputContainer>input{
+    width: 270px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: beige;
+    font-size: 18px;
+    color: tomato;
+    padding-left: 10px;
+}
+
+.todoInputContainer>button{
+    padding: 8px 15px;
+  color: white;
+    font-weight: 400;
+    background-color: rgba(40, 184, 40, 0.782);
+    border: none;
+    border-radius: 5px;
+}

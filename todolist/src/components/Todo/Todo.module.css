@@ -1,0 +1,18 @@
+.todoContainer{
+    background-color: rgba(103, 97, 97, 0.106);
+    height: 100vh;
+    
+}
+
+.todoContainer>div:first-child{
+        width: 250px;
+        margin: auto;
+        text-align: center;
+
+}
+.todoContainer>div:first-child>h1{
+    font-size: 35px;
+    background: -webkit-linear-gradient(#eee, #dc0707);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
